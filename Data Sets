@@ -1,4 +1,4 @@
-[12/12, 08:01] Sujan: @relation student
+ @relation student
 @attribute age {<30,30-40,>40}
 @attribute income {low, medium, high}
 @attribute student {yes, no}
@@ -21,7 +21,10 @@
 30-40, high, yes, fair, yes
 >40, medium, no, excellent, no
 %
-[12/12, 08:01] Sujan: @relation employee
+
+
+
+@relation employee
 @attribute age {25, 27, 28, 29, 30, 35, 48}
 @attribute salary{10k,15k,17k,20k,25k,30k,35k,32k}
 @attribute performance {good, avg, poor}
@@ -39,7 +42,9 @@
 48, 35k, good
 48, 32k,good
 %
-[12/12, 08:01] Sujan: @RELATION iris
+
+
+ @RELATION iris
 
 @ATTRIBUTE sepallength	REAL
 @ATTRIBUTE sepalwidth 	REAL
